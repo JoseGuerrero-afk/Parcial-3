@@ -53,9 +53,9 @@ public class Pedido {
 
     public String generarFacturaTexto() {
         StringBuilder sb = new StringBuilder();
-        sb.append("==========================================\n");
+        sb.append("\n");
         sb.append("         RESUMEN FINAL DEL PEDIDO         \n");
-        sb.append("==========================================\n");
+        sb.append("\n");
         for (ItemPedido item : items) {
             sb.append(" - ").append(item.toString()).append("\n");
         }
